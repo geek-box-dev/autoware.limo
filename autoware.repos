@@ -109,6 +109,10 @@ repositories:
     type: git
     url: https://github.com/tier4/pacmod_interface.git
     version: main
+  vehicle/external/limo_interface:
+    type: git
+    url: git@github.com:geek-box-dev/limo_interface.git
+    version: main
   vehicle/external/limo_driver:
     type: git
     url: git@github.com:geek-box-dev/limo_ros2.git
