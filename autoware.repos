@@ -104,7 +104,7 @@ repositories:
   vehicle/limo_vehicle_launch:
     type: git
     url: git@github.com:geek-box-dev/limo_vehicle_launch.git
-    version: develop
+    version: main
   vehicle/external/pacmod_interface:
     type: git
     url: https://github.com/tier4/pacmod_interface.git
