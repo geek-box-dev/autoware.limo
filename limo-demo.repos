@@ -1,0 +1,117 @@
+repositories:
+  core/autoware.core:
+    type: git
+    url: https://github.com/autowarefoundation/autoware.core.git
+    version: 99891401473b5740e640f5a0cc0412c0984b8e0b
+  core/autoware_adapi_msgs:
+    type: git
+    url: https://github.com/autowarefoundation/autoware_adapi_msgs.git
+    version: d996e407724ac9ef3018c8da11323d50edc933a6
+  core/autoware_common:
+    type: git
+    url: https://github.com/autowarefoundation/autoware_common.git
+    version: ede5f156c924eb0784eb0a9add1628cdccf9f8e5
+  core/autoware_internal_msgs:
+    type: git
+    url: https://github.com/autowarefoundation/autoware_internal_msgs.git
+    version: a701d19e773453c0b037f2233d7059fec5f80574
+  core/autoware_msgs:
+    type: git
+    url: https://github.com/autowarefoundation/autoware_msgs.git
+    version: 224bd3a87fb539630f5a09409c809a81f8bb9118
+  core/external/autoware_auto_msgs:
+    type: git
+    url: https://github.com/tier4/autoware_auto_msgs.git
+    version: 1e8b6d234e2690c9da386f006bb60835cdccddfd
+  launcher/autoware_launch:
+    type: git
+    url: git@github.com:geek-box-dev/autoware_launch.limo.git
+    version: 9b7a16a82eab836286b93b1e70526c0bab8b7479
+  param/limo_individual_params:
+    type: git
+    url: git@github.com:geek-box-dev/limo_individual_params.git
+    version: 53376e50c3719cfbf0874e0ea78b555576ff17c4
+  sensor_component/external/nebula:
+    type: git
+    url: https://github.com/tier4/nebula.git
+    version: eb5e1b7e250690944114c1992cd2784f462b3109
+  sensor_component/external/sensor_component_description:
+    type: git
+    url: https://github.com/tier4/sensor_component_description.git
+    version: 3218254a408e1b57593d9ae0ea23561ff8a71511
+  sensor_component/external/tamagawa_imu_driver:
+    type: git
+    url: https://github.com/tier4/tamagawa_imu_driver.git
+    version: de4bf6be79aa2968cf2f62e0ebe1ff8a5797e6ad
+  sensor_component/external/transport_drivers:
+    type: git
+    url: https://github.com/MapIV/transport_drivers.git
+    version: e7e25ed52b58b3556fa8b0f75a87f7c5d42fbef1
+  sensor_kit/external/awsim_sensor_kit_launch:
+    type: git
+    url: https://github.com/RobotecAI/awsim_sensor_kit_launch.git
+    version: c698f24a2a0b5dccc8e8b15e8628ae58bcdabb4b
+  sensor_kit/limo_sensor_kit_launch:
+    type: git
+    url: git@github.com:geek-box-dev/limo_sensor_kit_launch.git
+    version: 60bf0d2c20da4c50f0443bdd1a3129b1c386a7f2
+  universe/autoware.universe:
+    type: git
+    url: https://github.com/autowarefoundation/autoware.universe.git
+    version: 35642a6df0a12750256f459b40546e90bcd5c09e
+  universe/external/ament_cmake:
+    type: git
+    url: https://github.com/autowarefoundation/ament_cmake.git
+    version: aa498007d47198815fa7cba25f9dfeac77e09ca3
+  universe/external/eagleye:
+    type: git
+    url: https://github.com/MapIV/eagleye.git
+    version: 32658a8953e6f3910b2872cf2e7a13d00a6db097
+  universe/external/llh_converter:
+    type: git
+    url: https://github.com/MapIV/llh_converter.git
+    version: 07ad112b4f6b83eccd3a5f777bbe40ff01c67382
+  universe/external/morai_msgs:
+    type: git
+    url: https://github.com/MORAI-Autonomous/MORAI-ROS2_morai_msgs.git
+    version: 860aaadea5dcaabd5a2272c244eea51265363740
+  universe/external/muSSP:
+    type: git
+    url: https://github.com/tier4/muSSP.git
+    version: c79e98fd5e658f4f90c06d93472faa977bc873b9
+  universe/external/ndt_omp:
+    type: git
+    url: https://github.com/tier4/ndt_omp.git
+    version: c803c10bfae55396d2cb3cc87275329a1a95434a
+  universe/external/pointcloud_to_laserscan:
+    type: git
+    url: https://github.com/tier4/pointcloud_to_laserscan.git
+    version: d969ec699f84fad827fbadfa3001c9c657482fbe
+  universe/external/rtklib_ros_bridge:
+    type: git
+    url: https://github.com/MapIV/rtklib_ros_bridge.git
+    version: ef094407bba4f475a8032972e0c60cbb939b51b8
+  universe/external/tier4_ad_api_adaptor:
+    type: git
+    url: https://github.com/tier4/tier4_ad_api_adaptor.git
+    version: 2f341cc1f785b14043f16ecbe1dd83a6bf5dd443
+  universe/external/tier4_autoware_msgs:
+    type: git
+    url: https://github.com/tier4/tier4_autoware_msgs.git
+    version: 4a5f78b99dd1504a64d1571ff5da5c32b1c50bef
+  vehicle/external/limo_driver:
+    type: git
+    url: git@github.com:geek-box-dev/limo_ros2.git
+    version: e2e1c3d8ded27abf188cf3cc53ce71cf488aca47
+  vehicle/external/limo_interface:
+    type: git
+    url: git@github.com:geek-box-dev/limo_interface.git
+    version: 282f8061c098ce366fbe65f1af8e30367226aa44
+  vehicle/external/pacmod_interface:
+    type: git
+    url: https://github.com/tier4/pacmod_interface.git
+    version: f3690802c12d1f6335df9f9d695f594ddbac04c6
+  vehicle/limo_vehicle_launch:
+    type: git
+    url: git@github.com:geek-box-dev/limo_vehicle_launch.git
+    version: 8b9b99370a471de93c72b8d259fa92c59a30b477
